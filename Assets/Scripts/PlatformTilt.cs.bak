@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class PlatformTilt : MonoBehaviour
+{
+    public float tiltSpeed = 10f; // Adjust the tilt speed in the Inspector
+
+    void Update()
+    {
+        // Get input from horizontal and vertical axes (arrow keys or WASD)
+        float tiltX = Input.GetAxis("Vertical") * tiltSpeed * Time.deltaTime;
+        float tiltZ = -Input.GetAxis("Horizontal") * tiltSpeed * Time.deltaTime;
+
+        // Apply rotation to the platform
+        transform.Rotate(tiltX, 0, tiltZ);
+    }
+}

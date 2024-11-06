@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -40,12 +41,31 @@ ExportedObj/
 *.user
 *.userprefs
 *.pidb
+=======
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+# Ignore Auto Generated Asset Meta Data
+*.pidb.meta
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+>>>>>>> 166f703 (second commit)
 *.booproj
 *.svd
 *.pdb
 *.mdb
 *.opendb
 *.VC.db
+<<<<<<< HEAD
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -70,3 +90,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+=======
+# Add additional exclusions as necessary
+>>>>>>> 166f703 (second commit)
