@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 58ca840b68e6e4c65895f3ba88679e3c
+  productGUID: fd9c59e66f32e495d9dbf1631f296bf1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: MarbleMaze
+  productName: My project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -677,14 +677,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: MarbleMaze
+  metroPackageName: My project
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: MarbleMaze
+  metroApplicationDescription: My project
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -754,10 +754,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 5d427bbc-1455-4b3e-a2df-c8d00c989931
+  cloudProjectId: fc9f6e5e-b83b-4d6c-a21f-0a0b52a05848
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: MarbleMaze 2024-11-07_18-07-50
+  projectName: My project 2024-11-07_19-22-31
   organizationId: unity_tmkbupv-uairow
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
