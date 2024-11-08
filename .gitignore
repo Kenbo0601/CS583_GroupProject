@@ -28,7 +28,7 @@
 .vs/
 
 # vscofig fle
-.viconfig
+.vsconfig
 
 # Gradle cache directory
 .gradle/
