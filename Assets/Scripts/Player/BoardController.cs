@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlatformTilt : MonoBehaviour
+public class BoardController : MonoBehaviour
 {
     public float tiltSpeed = 10f; 
 

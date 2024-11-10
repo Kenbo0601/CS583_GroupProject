@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 20132501}
   - component: {fileID: 20132500}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -454,27 +454,14 @@ GameObject:
   - component: {fileID: 1619061776}
   - component: {fileID: 1619061775}
   - component: {fileID: 1619061774}
-  - component: {fileID: 1619061773}
+  - component: {fileID: 1619061779}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1619061773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619061772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4afdb821be16bee40985e8cd43ebfab8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tiltSpeed: 10
 --- !u!54 &1619061774
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -588,6 +575,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1619061779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619061772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afdb821be16bee40985e8cd43ebfab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiltSpeed: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
