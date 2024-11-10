@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public Transform target; 
     public float smoothSpeed = 0.1f; 
+=======
+    public Transform target;
+    public float smoothSpeed = 0.125f; 
+>>>>>>> Stashed changes
     public Vector3 offset; 
 
     void LateUpdate()
