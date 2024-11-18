@@ -38,6 +38,6 @@ public class VolumeControl : MonoBehaviour
 
     public void VolumeControlBack()
     {
-        //SceneManager.LoadScene(Add Scene Number Here);
+        SceneManager.LoadScene("IntroPage");
     }
 }
