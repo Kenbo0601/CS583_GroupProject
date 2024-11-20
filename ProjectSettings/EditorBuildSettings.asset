@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroPage.unity
     guid: 23a4e946db3fa4e49be6b3638650b15c
   - enabled: 1
-    path: Assets/Scenes/Directions.unity
+    path: Assets/Scenes/LevelList.unity
     guid: dd15f58e7e6de1b419d4d9b193f2a7df
+  - enabled: 1
+    path: Assets/Scenes/BoardTemplate.unity
+    guid: 4ec3516f14bbec24c9863cfb9812432a
+  - enabled: 1
+    path: Assets/Scenes/VolumeControl.unity
+    guid: b25f42e4f817d6342a70695991f26ee7
   m_configObjects: {}

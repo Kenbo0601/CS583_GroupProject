@@ -9,6 +9,22 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
+    
+    /* Function for loading scenes by name
+     * select this function in specific buttons, then set the string sceneName to  
+     * whichever the scene you want, make sure to add scenes in Files/BuildSettings
+     */
+    public void LoadSceneByName(string sceneName)
+    {
+        if (Application.CanStreamedLevelBeLoaded(sceneName))
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+        else
+        {
+            Debug.LogError($"Scene '{sceneName}' does not exist in Build Settings!");
+        }
+    }
 
     public void QuitGame ()
     {
