@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3299565851653384838}
   - component: {fileID: 8040149618183806228}
   - component: {fileID: 5922002641269405151}
-  - component: {fileID: 7123417897027594663}
+  - component: {fileID: 8257049630108387132}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -108,7 +108,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7123417897027594663
+--- !u!114 &8257049630108387132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417607591419939580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc7a0e55aa045c64990819fc7bbd284c, type: 3}
+  m_Script: {fileID: 11500000, guid: f15c94c98e972dc4bbf6827d6ac11fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5839259830087063379
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 276918859568675226}
   - component: {fileID: 2248633560808868943}
   - component: {fileID: 8314669118756158173}
-  - component: {fileID: 707454510375878112}
+  - component: {fileID: 3177005357180000048}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -226,7 +226,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &707454510375878112
+--- !u!114 &3177005357180000048
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5839259830087063379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc7a0e55aa045c64990819fc7bbd284c, type: 3}
+  m_Script: {fileID: 11500000, guid: f15c94c98e972dc4bbf6827d6ac11fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8255183367045198409
@@ -247,7 +247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6637893390378601469}
-  - component: {fileID: 7377715004677324106}
+  - component: {fileID: 6876864093776233443}
   m_Layer: 0
   m_Name: GoalFlag
   m_TagString: Untagged
@@ -272,7 +272,7 @@ Transform:
   - {fileID: 781570427120599684}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7377715004677324106
+--- !u!114 &6876864093776233443
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,6 +281,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8255183367045198409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc7a0e55aa045c64990819fc7bbd284c, type: 3}
+  m_Script: {fileID: 11500000, guid: f15c94c98e972dc4bbf6827d6ac11fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
