@@ -8,7 +8,6 @@ public class Coin : MonoBehaviour
         // Find out if the ball hit the coin
         GameObject collidedWith = coll.gameObject;
         if (collidedWith.CompareTag("Ball")) {
-            // Destroy the object if it has the "Pea" tag
             Destroy(this.gameObject);
             // Increase the score
             ScoreManager.AddScore(100);
