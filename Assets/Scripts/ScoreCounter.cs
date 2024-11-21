@@ -4,10 +4,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI; // This line enables use of uGUI classes like Text.
 
-public class ScoreCounter : MonoBehaviour {
-    [Header("Dynamic")]
-
-    public int score = 0;
+public class ScoreCounter : MonoBehaviour
+{
+    [Header("Dynamic")] 
     private TextMeshProUGUI uiText;
 
     void Start() {
@@ -15,6 +14,6 @@ public class ScoreCounter : MonoBehaviour {
     }
 
     void Update() {
-        uiText.text = score.ToString("#,0"); // This 0 is a zero!
+        uiText.text = ScoreManager.score.ToString("#,0"); // This 0 is a zero!
     }
 }
