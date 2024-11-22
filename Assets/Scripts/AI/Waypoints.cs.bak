@@ -1,30 +1,34 @@
-using System.Collections.Generic;
-using UnityEngine;
+    public Color lineColor = Color.blue; //color for the lines between waypoints in the editor
 
-public class Waypoints : MonoBehaviour
-{
-    public float sphereRadius = 1f;
-    public Color waypointColor = Color.red;
-    public Color lineColor = Color.blue;
-
-    private List<Transform> waypointsList = new List<Transform>();
+    private List<Transform> waypointsList = new List<Transform>(); //list to store the waypoints
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = waypointColor;
-        waypointsList.Clear();
-
-        foreach (Transform t in transform)
+        if (!Application.isPlaying) //check if not in play mode
         {
-            waypointsList.Add(t);
-            Gizmos.DrawWireSphere(t.position, sphereRadius);
+            Gizmos.color = waypointColor; //set waypoint color in the editor
+        }
+        else
+        {
+            Gizmos.color = Color.clear; //no color during play mode
         }
 
-        Gizmos.color = lineColor;
+        waypointsList.Clear(); //clear the list of waypoints
 
-        for (int i = 0; i < waypointsList.Count - 1; i++)
+        foreach (Transform t in transform) //iterate through each child transform (waypoint)
         {
-            Gizmos.DrawLine(waypointsList[i].position, waypointsList[i + 1].position);
+            waypointsList.Add(t); //add the waypoint to the list
+            Gizmos.DrawWireSphere(t.position, sphereRadius); //draw a sphere at each waypoint's position
+        }
+
+        if (!Application.isPlaying) //check if not in play mode
+        {
+            Gizmos.color = lineColor; //set line color in the editor
+
+            for (int i = 0; i < waypointsList.Count - 1; i++) //loop through waypoints to draw lines
+            {
+                Gizmos.DrawLine(waypointsList[i].position, waypointsList[i + 1].position); //draw line between waypoints
+            }
         }
     }
 }
