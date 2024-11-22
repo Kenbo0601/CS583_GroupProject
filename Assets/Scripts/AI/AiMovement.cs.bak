@@ -1,0 +1,35 @@
+using UnityEngine;
+
+public class AIMovement : MonoBehaviour
+{
+    public Transform[] waypoints;
+    public float moveSpeed = 3f;
+    private int currentWaypointIndex = 0;
+
+    void Start()
+    {
+        // Make sure waypoints are children of the movable platform
+        foreach (Transform waypoint in waypoints)
+        {
+            waypoint.SetParent(transform); // Set the platform as the parent
+        }
+    }
+
+    void Update()
+    {
+        MoveBetweenWaypoints();
+    }
+
+    void MoveBetweenWaypoints()
+    {
+        if (waypoints.Length == 0) return;
+
+        Transform target = waypoints[currentWaypointIndex];
+        transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, target.position) < 0.1f)
+        {
+            currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+        }
+    }
+}
