@@ -13,8 +13,8 @@ public class AIMovement : MonoBehaviour
 
     void Update()
     {
-        MoveBackAndForth();
-        InteractWithBall();
+        MoveBackAndForth();//oscillate from point x to point x
+        InteractWithBall(); //chase ball
     }
 
     void MoveBackAndForth()
@@ -37,7 +37,7 @@ public class AIMovement : MonoBehaviour
         //check if the ball is within detection range
         if (Vector3.Distance(transform.position, ball.position) <= detectionRange)
         {
-            //apply knock force to the ball
+            //apply knock force to the ball for different levels
             Rigidbody ballRb = ball.GetComponent<Rigidbody>();
             if (ballRb != null)
             {
