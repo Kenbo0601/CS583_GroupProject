@@ -5,10 +5,10 @@ Welcome to the **Marble Maze** Unity project! This is a group project in CS583 -
 ## **Group Members**
 **Name**
  - Kenichi Sakamoto 
- - Name
- - Name
- - Name 
- - Name   
+ - Steven Barnas
+ - Nathan Shores
+ - Xavier Alarcon
+ - Luke Patterson
 
 ---
 
