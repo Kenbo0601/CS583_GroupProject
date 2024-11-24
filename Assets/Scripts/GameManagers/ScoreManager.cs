@@ -14,4 +14,9 @@ public static class ScoreManager
         score += points;
         Debug.Log(score);
     }
+
+    public static string DisplayScore()
+    {
+        return score.ToString("#,0");
+    }
 }
