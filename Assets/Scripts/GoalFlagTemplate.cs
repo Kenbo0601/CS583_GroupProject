@@ -24,7 +24,7 @@ public class GoalFlagTemplate : MonoBehaviour
             // Destroy the ball
             Destroy(collidedWith);
             // Load the next level
-            SceneManager.LoadScene("BoardTemplate");
+            SceneManager.LoadScene("XavBoard");
         }
     }
 }
