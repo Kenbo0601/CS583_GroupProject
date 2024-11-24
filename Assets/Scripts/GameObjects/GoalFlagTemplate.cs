@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GoalFlagTemplate : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //CHANGE THIS TO WHATEVER SCENE/LEVEL TO BE LOADED AFTER FINISHING THIS ONE
+    public string sceneName = "XavBoard";
     void Start()
     {
         
@@ -19,12 +20,11 @@ public class GoalFlagTemplate : MonoBehaviour
     void OnCollisionEnter(Collision coll) {
         // Find out what hit the goal
         GameObject collidedWith = coll.gameObject;
-        // Get a reference to the WhenRatsFly component of the Main Camera
         if (collidedWith.CompareTag("Ball")) {
             // Destroy the ball
             Destroy(collidedWith);
             // Load the next level
-            SceneManager.LoadScene("XavBoard");
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
