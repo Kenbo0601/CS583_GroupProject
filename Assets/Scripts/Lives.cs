@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 public class Lives : MonoBehaviour
 {
     // Public references to life objects, set these in the Inspector
+
+     //PLACEHOLDER UNTIL WE DECIDE WHAT SCENE TO LOAD WHEN YOU RUN OUT OF LIVES (first level? gameover screen?)
+    public string sceneName = "XavBoard";
+    //REPLACE WITH WHATEVER Y VALUE IS APPROPRIATE FOR EACH LEVEL/SCENE
+    public float deathYvalue;
     public GameObject life1;
     public GameObject life2;
     public GameObject life3;
@@ -52,7 +57,7 @@ public class Lives : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y < -10)
+        if (transform.position.y < deathYvalue)
         {
             DecreaseLives();
             ResetBallPosition(); 
