@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+
+// --- Attach this script to ball object, then set SceneName = GameOver ---
 public class Lives : MonoBehaviour
 {
     // Public references to life objects, set these in the Inspector
-
-     //PLACEHOLDER UNTIL WE DECIDE WHAT SCENE TO LOAD WHEN YOU RUN OUT OF LIVES (first level? gameover screen?)
-    public string sceneName = "XavBoard";
+    
+    public string sceneName;
     //REPLACE WITH WHATEVER Y VALUE IS APPROPRIATE FOR EACH LEVEL/SCENE
     public float deathYvalue;
     public GameObject life1;
@@ -52,7 +54,7 @@ public class Lives : MonoBehaviour
 
     void GameOver()
     {
-        SceneManager.LoadScene("XavBoard");
+        SceneManager.LoadScene(sceneName);
     }
 
     void Update()
