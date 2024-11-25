@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 20132502}
   - component: {fileID: 20132501}
   - component: {fileID: 20132500}
+  - component: {fileID: 20132505}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Ball
@@ -255,6 +256,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20132505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20132499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1905c79379a15b1499dcb78b4d98f46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: XavBoard
+  deathYvalue: -10
+  life1: {fileID: 1709627682}
+  life2: {fileID: 591457519}
+  life3: {fileID: 1476091026}
+  originalXPosition: -0.23
+  originalYPosition: -0.2
+  originalZPosition: -0.77
 --- !u!1001 &110889852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,6 +333,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0151c2c9bc2f92e4fb75b2dbdaf49574, type: 3}
+--- !u!1 &591457519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001803183944465168, guid: c66b525ec3b9cc148b610a635a878d0f, type: 3}
+  m_PrefabInstance: {fileID: 2025060873251323455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +602,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 616568538296332262, guid: 0151c2c9bc2f92e4fb75b2dbdaf49574, type: 3}
   m_PrefabInstance: {fileID: 936913955}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1476091026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6986835964804408900, guid: c66b525ec3b9cc148b610a635a878d0f, type: 3}
+  m_PrefabInstance: {fileID: 2025060873251323455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1709627682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2307157120030377161, guid: c66b525ec3b9cc148b610a635a878d0f, type: 3}
+  m_PrefabInstance: {fileID: 2025060873251323455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1787312401
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,10 +698,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 227703163326172313, guid: c66b525ec3b9cc148b610a635a878d0f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -470
-      objectReference: {fileID: 0}
     - target: {fileID: 2866686879626414151, guid: c66b525ec3b9cc148b610a635a878d0f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
