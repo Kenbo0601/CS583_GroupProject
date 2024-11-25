@@ -7,15 +7,23 @@ Welcome to the **Marble Maze** Unity project! This is a group project in CS583 -
  - Kenichi Sakamoto 
     - Implement/debug board controller 
     - Implement/organize UI scenes such as Menu, level selection, game over
-    - Code optimization to make interactions of scenes and objects easier
-    - Manage Github 
+    - Debugging backend logic
+    - Code optimization to make interactions between scenes/objects easier
+    - Managing Github pull requests/merging 
  - Steven Barnas
     - Implement AI obstacles/opponents
     - debugging to remove marble bounce
     - Implement camera follow different angles if possible
     - Additional tasks if needed for additional levels
  - Nathan Shores 
+    - Create needed/useful 3d assets
+    - Create additional 2d or 3d assets
+    - Create 1 to 2 levels 
+    - Create volume control 
  - Xavier Alarcon
+    - Create game objects such as coins, a goal post
+    - Developing backend logic - lives, coins, goal post scripts
+    - Create a template level with necessary objects 
  - Luke Patterson
 
 ---
