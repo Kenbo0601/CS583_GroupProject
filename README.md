@@ -10,7 +10,7 @@ Welcome to the **Marble Maze** Unity project! This is a group project in CS583 -
     - Debugging backend logic
     - Code optimization to make interactions between scenes/objects easier
     - Managing Github pull requests/merging 
- - Steven Barnas
+ - Steven Bernas
     - Implement AI obstacles/opponents
     - debugging to remove marble bounce
     - Implement camera follow different angles if possible
