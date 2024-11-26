@@ -25,6 +25,8 @@ Welcome to the **Marble Maze** Unity project! This is a group project in CS583 -
     - Developing backend logic - lives, coins, goal post scripts
     - Create a template level with necessary objects 
  - Luke Patterson
+    - Designed and finalized 2 levels
+    - Built 2 levels in unity
 
 ---
 
