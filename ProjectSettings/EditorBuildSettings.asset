@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Directions.unity
     guid: dd15f58e7e6de1b419d4d9b193f2a7df
+  - enabled: 1
+    path: Assets/Scenes/VolumeControl.unity
+    guid: b25f42e4f817d6342a70695991f26ee7
   m_configObjects: {}
