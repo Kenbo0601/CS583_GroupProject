@@ -30,7 +30,7 @@ Welcome to the **Marble Maze** Unity project! This is a group project in CS583 -
 
 ---
 
-## **Overview**
+  ## **Target for the Game**
 
 The Marble Maze project is a 3D game where players control a marble to navigate through a challenging maze. The objective is to reach the goal as quickly as possible while avoiding obstacles and collecting coins for extra points. This project is designed to demonstrate physics-based gameplay, intuitive controls, and dynamic level design.
 
