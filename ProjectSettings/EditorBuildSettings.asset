@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/XavBoard.unity
     guid: 2d3f15d386a4c6e459e2d8e54a6d486d
+  - enabled: 1
+    path: Assets/Scenes/StevenBoard.unity
+    guid: 0fe946b1a4fc09849acdb7dcf40f3df2
   m_configObjects: {}
