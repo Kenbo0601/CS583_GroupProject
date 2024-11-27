@@ -4,7 +4,7 @@ public class BoardController : MonoBehaviour
 {
     public float tiltSpeed = 10f; 
 
-    void Update()
+    void FixedUpdate()
     {
         float tiltX = 0f;
         float tiltZ = 0f;
