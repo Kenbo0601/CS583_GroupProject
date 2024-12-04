@@ -54,6 +54,7 @@ public class Lives : MonoBehaviour
 
     void GameOver()
     {
+        GameManager.isGameOver = true;
         SceneManager.LoadScene(sceneName);
     }
 
