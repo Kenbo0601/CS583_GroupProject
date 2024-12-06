@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public float spinSpeed = 100f; // Speed of rotation in degrees per second
+    public AudioClip collectSound; // Coin collect sound
 
     void Update()
     {
@@ -16,6 +17,12 @@ public class Coin : MonoBehaviour
         // Find out if the ball hit the coin
         GameObject collidedWith = coll.gameObject;
         if (collidedWith.CompareTag("Ball")) {
+            // Play the coin collect sound
+            if (collectSound != null)
+            {
+                AudioSource.PlayClipAtPoint(collectSound, transform.position);
+            }
+            
             Destroy(this.gameObject);
             // Increase the score
             ScoreManager.AddScore(100);
