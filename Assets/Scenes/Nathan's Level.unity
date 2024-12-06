@@ -249,8 +249,8 @@ Transform:
   m_GameObject: {fileID: 20132499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 90, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 0, y: 160, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -303,6 +303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cb3dae83936c448448e7cf4165ba8f7a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: cb3dae83936c448448e7cf4165ba8f7a, type: 3}
       propertyPath: m_Name
       value: Track Curve 3x3
@@ -395,6 +399,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2bcad99fc199de6478d513bf6c02f098, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 2bcad99fc199de6478d513bf6c02f098, type: 3}
       propertyPath: m_Name
       value: Track Ramp Straight 1x2
@@ -711,7 +719,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -817,7 +825,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -895,6 +903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3
@@ -1015,7 +1027,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1093,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ad551dbc0cea558458584c1422b582ce, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: ad551dbc0cea558458584c1422b582ce, type: 3}
       propertyPath: m_Name
       value: Track Esse 2x4
@@ -1185,6 +1201,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4259fb7af70516c46adc144baf87fa6b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 4259fb7af70516c46adc144baf87fa6b, type: 3}
       propertyPath: m_Name
       value: Track Vertical Base 1x4 (1)
@@ -1305,7 +1325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1505,7 +1525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1583,6 +1603,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f0add1e90bc154d4a8ccd67349727f62, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: f0add1e90bc154d4a8ccd67349727f62, type: 3}
       propertyPath: m_Name
       value: Track Vertical Top 1x2 (1)
@@ -1750,6 +1774,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4f024b05fdbf21e4384ae2029901e3ac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 4f024b05fdbf21e4384ae2029901e3ac, type: 3}
       propertyPath: m_Name
       value: Track U 3x3
@@ -1864,6 +1892,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 211891962}
     m_Modifications:
+    - target: {fileID: 971814664583405463, guid: 87d11466c62945443b2ff80bc2798de8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 1620284563872677442, guid: 87d11466c62945443b2ff80bc2798de8, type: 3}
       propertyPath: m_Name
       value: New Prefab 1
@@ -1966,6 +1998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3 (3)
@@ -2062,6 +2098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379879022986165402, guid: 290eed3badc15d64ca7ff5a159d84b79, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2148,7 +2188,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2331,6 +2371,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e0c0b7a2a5c1d874a9e5a67607687a4d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e0c0b7a2a5c1d874a9e5a67607687a4d, type: 3}
       propertyPath: m_Name
       value: Track Straight 1x1
@@ -2531,6 +2575,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c8b2d343353d2346af3e0d53ec215a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c8b2d343353d2346af3e0d53ec215a1, type: 3}
       propertyPath: m_Name
       value: Track Curve 2x2
@@ -2584,12 +2632,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 120
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2622,6 +2682,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 024f280ce62b3064fa02ca3e393d59dd, type: 3}
       propertyPath: m_Name
@@ -2680,6 +2744,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c8b2d343353d2346af3e0d53ec215a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c8b2d343353d2346af3e0d53ec215a1, type: 3}
       propertyPath: m_Name
       value: Track Curve 2x2 (1)
@@ -2834,6 +2902,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3 (4)
@@ -3011,8 +3083,8 @@ Transform:
   m_GameObject: {fileID: 1376941280}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -11.133223, y: -23.490005, z: 53.262608}
-  m_LocalScale: {x: 0.5, y: 1, z: 2}
+  m_LocalPosition: {x: -9, y: -23.490005, z: 53.262608}
+  m_LocalScale: {x: 0.5, y: 1, z: 1.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 211891962}
@@ -3059,7 +3131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3137,6 +3209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c4bace4575ff7f843aa745d17a8bce30, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: c4bace4575ff7f843aa745d17a8bce30, type: 3}
       propertyPath: m_Name
       value: Track Curve 1x1
@@ -3229,6 +3305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3dcf5d2e868e6f84f92f7b30035164bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 3dcf5d2e868e6f84f92f7b30035164bb, type: 3}
       propertyPath: m_Name
       value: Track Curve 4x4
@@ -3281,6 +3361,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 211891962}
     m_Modifications:
+    - target: {fileID: 7260873561646674774, guid: bc5bba5a4e65e5249a33ac7aab10b4fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 8397210907354482745, guid: bc5bba5a4e65e5249a33ac7aab10b4fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.159
@@ -3383,6 +3467,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c4bace4575ff7f843aa745d17a8bce30, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: c4bace4575ff7f843aa745d17a8bce30, type: 3}
       propertyPath: m_Name
       value: Track Curve 1x1
@@ -3435,6 +3523,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 211891962}
     m_Modifications:
+    - target: {fileID: 7260873561646674774, guid: bc5bba5a4e65e5249a33ac7aab10b4fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 8397210907354482745, guid: bc5bba5a4e65e5249a33ac7aab10b4fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.53
@@ -3497,6 +3589,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 211891962}
     m_Modifications:
+    - target: {fileID: 971814664583405463, guid: 87d11466c62945443b2ff80bc2798de8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 1620284563872677442, guid: 87d11466c62945443b2ff80bc2798de8, type: 3}
       propertyPath: m_Name
       value: New Prefab
@@ -3603,6 +3699,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3
@@ -3695,6 +3795,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f0add1e90bc154d4a8ccd67349727f62, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: f0add1e90bc154d4a8ccd67349727f62, type: 3}
       propertyPath: m_Name
       value: Track Vertical Top 1x2
@@ -3791,6 +3895,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3 (5)
@@ -3948,6 +4056,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 211891962}
     m_Modifications:
+    - target: {fileID: 7260873561646674774, guid: bc5bba5a4e65e5249a33ac7aab10b4fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 8397210907354482745, guid: bc5bba5a4e65e5249a33ac7aab10b4fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.648
@@ -4050,6 +4162,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4259fb7af70516c46adc144baf87fa6b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 4259fb7af70516c46adc144baf87fa6b, type: 3}
       propertyPath: m_Name
       value: Track Vertical Base 1x4
@@ -4142,6 +4258,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3 (2)
@@ -4261,7 +4381,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4339,6 +4459,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3fb0a0021be75474e853695cb39a5208, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: 3fb0a0021be75474e853695cb39a5208, type: 3}
       propertyPath: m_Name
       value: Track Ramp Straight Tall 1x2
@@ -4431,6 +4555,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
     - target: {fileID: 919132149155446097, guid: e20694b76e5a5ed45bf863674b3354c8, type: 3}
       propertyPath: m_Name
       value: Track Ramp U 3x3 (1)
@@ -4551,7 +4679,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4657,7 +4785,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fe5d6128d7dcb07409612af81d333952, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
