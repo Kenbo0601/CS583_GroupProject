@@ -8,7 +8,7 @@ public class LukesBoardController : MonoBehaviour
     public float maxTiltAngle = 20f; // Maximum tilt angle in degrees
 
     public Vector3 currentRotation; // Public to allow modification from other scripts
-    private Quaternion initialRotation; // To store the initial rotation (optional)
+    private Quaternion initialRotation; // To store the initial rotation 
 
     void Start()
     {
