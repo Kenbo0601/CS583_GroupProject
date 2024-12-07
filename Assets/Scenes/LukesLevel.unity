@@ -33650,7 +33650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a76d17086964564937fe52f1d218e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiltSpeed: 10
+  tiltSpeed: 6.5
   maxTiltAngle: 45
   currentRotation: {x: 0, y: 0, z: 0}
 --- !u!4 &1822400581 stripped
