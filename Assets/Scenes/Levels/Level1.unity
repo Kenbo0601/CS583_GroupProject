@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1905c79379a15b1499dcb78b4d98f46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GameClear
+  sceneName: GameOver
   deathYvalue: -10
   life1: {fileID: 994107337}
   life2: {fileID: 994107336}
