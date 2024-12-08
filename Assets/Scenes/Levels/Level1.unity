@@ -270,9 +270,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: GameClear
   deathYvalue: -10
-  life1: {fileID: 0}
-  life2: {fileID: 0}
-  life3: {fileID: 0}
+  life1: {fileID: 994107337}
+  life2: {fileID: 994107336}
+  life3: {fileID: 994107335}
   originalXPosition: 0
   originalYPosition: 5
   originalZPosition: 12
@@ -1379,6 +1379,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b44bc8481d37e48459780ca78eb71bad, type: 3}
+--- !u!1 &994107335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2899693253513242050, guid: b44bc8481d37e48459780ca78eb71bad, type: 3}
+  m_PrefabInstance: {fileID: 994107334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &994107336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8087831404318708054, guid: b44bc8481d37e48459780ca78eb71bad, type: 3}
+  m_PrefabInstance: {fileID: 994107334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &994107337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1929989740803890058, guid: b44bc8481d37e48459780ca78eb71bad, type: 3}
+  m_PrefabInstance: {fileID: 994107334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &997785827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4508425884730540, guid: b5bbd85c42f75ab4e88a9575bc5b5040, type: 3}
