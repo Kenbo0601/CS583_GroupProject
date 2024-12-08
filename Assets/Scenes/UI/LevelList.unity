@@ -339,7 +339,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565494379}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Directions, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
@@ -473,15 +473,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 565494379}
-        m_TargetAssemblyTypeName: Directions, Assembly-CSharp
-        m_MethodName: Continue
-        m_Mode: 1
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &158600412
@@ -606,15 +606,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 565494379}
-        m_TargetAssemblyTypeName: Directions, Assembly-CSharp
-        m_MethodName: Continue
-        m_Mode: 1
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: LukesLevel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &249696719
@@ -793,7 +793,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 565494377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b310e8f8ad33ba84898517696abaa711, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e28198f72c1962438c6e43799127dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &683705552
@@ -1312,15 +1312,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 565494379}
-        m_TargetAssemblyTypeName: Directions, Assembly-CSharp
-        m_MethodName: Continue
-        m_Mode: 1
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1383289203
@@ -1846,7 +1846,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565494379}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Directions, Assembly-CSharp
         m_MethodName: Continue
         m_Mode: 1

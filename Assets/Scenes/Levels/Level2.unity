@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1905c79379a15b1499dcb78b4d98f46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GameClear
+  sceneName: GameOver
   deathYvalue: -10
   life1: {fileID: 255162956}
   life2: {fileID: 1933083152}
@@ -8209,8 +8209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f15c94c98e972dc4bbf6827d6ac11fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GameClear
-  gameEndFlag: 1
+  sceneName: LukesLevel
+  gameEndFlag: 0
 --- !u!1001 &1873515397
 PrefabInstance:
   m_ObjectHideFlags: 0
