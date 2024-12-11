@@ -9,7 +9,6 @@ public static class TimeManager
 
     public static void UpdateTime()
     {
-        Debug.Log(GameManager.isGameOver);
         if (GameManager.isGameOver) return;
         elapsedTime += Time.deltaTime;
     }
