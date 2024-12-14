@@ -15,18 +15,21 @@ Welcome to the **Marble Maze** Unity project! This is a group project in CS583 -
     - debugging to remove marble bounce
     - Implement camera follow different angles if possible
     - Additional tasks if needed for additional levels
- - Nathan Shores 
+ - Nathan Shorez 
     - Create needed/useful 3d assets
     - Create additional 2d or 3d assets
-    - Create 1 to 2 levels 
-    - Create volume control 
+    - Create 1 level 
+    - Create volume control
+    - Picked out Songs based on everyone's audio requiests
+    - Created and edit video for submission
  - Xavier Alarcon
     - Create game objects such as coins, a goal post
     - Developing backend logic - lives, coins, goal post scripts
     - Create a template level with necessary objects 
  - Luke Patterson
-    - Designed and finalized 2 levels
-    - Built 2 levels in unity
+    - Designed and finalized 1 levels
+    - Built 1 levels in unity
+    - Assisted Nathan in creating 3d assets for level
 
 ---
 
